@@ -6,7 +6,7 @@ const Accomodation = (props) => {
     const [accomodations, setAccomodations] = useState([])
 
     useEffect(()=>{
-        axios.get("http://skills-it.hu/api/accomodations").then(res => {
+        axios.get("http://localhost:8000/api/accomodations").then(res => {
             setAccomodations(res.data)
         })
     }, [])

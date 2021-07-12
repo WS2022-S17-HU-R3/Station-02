@@ -23,6 +23,10 @@
 		background-color: #2a7942 !important;
 		border-color: #49b56a  !important;
 	}
+	&:disabled {
+		background-color: #49b56a;
+		border-color: #49b56a;
+	}
 }
 
 .login-container {
@@ -49,7 +53,7 @@
 	}
 }
 .bg {
-	background-color: rgba(103, 238, 144, 0.05);
+	// background-color: rgba(103, 238, 144, 0.05);
 	width: 100vw;
 	min-height: 100vh;
 	box-sizing: border-box;
@@ -97,7 +101,7 @@
 	background-color: #eee;
 	width: 100%;
 	min-height: 100px;
-	margin-top: 20px;
+	margin: 20px 0;
 	padding: 20px;
 	.title {
 		font-size: 25px;

@@ -8,7 +8,6 @@ const Admin = (props) => {
 
     const history = useHistory()
     const location = useLocation()
-    console.log(location)
 
 	return (
         <div className="container admin-container">
